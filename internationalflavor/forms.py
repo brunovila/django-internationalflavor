@@ -1,6 +1,7 @@
 import locale
 from django import forms
-from django.utils.encoding import force_text
+#from django.utils.encoding import force_text
+from django.utils.encoding import force_str as force_text
 
 
 def _compare_locale_str(value):
